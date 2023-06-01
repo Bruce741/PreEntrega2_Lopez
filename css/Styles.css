@@ -1,0 +1,182 @@
+/** Generales **/
+
+@font-face {
+    font-family:Roboto;
+    src: url(../Fuente/RobotoCondensed-Regular.ttf);
+}
+
+body {
+    background-color: #D7FDF0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.MetodosPagoDiv {
+    background-color: #B4D6D3;
+    padding: 1px;
+}
+
+.MetodosPagoDiv h2{
+    margin-top: 3px;
+}
+
+.MetodosPagoDiv ul{
+    list-style-type: square;
+}
+
+.FondoPrincipal {
+    background-color: #B2FFD6;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    
+}
+
+main {
+    margin: 2px;
+    grid-area: main;
+}
+
+/** NavBar **/
+
+
+.NavPrincipal {
+    padding: 1px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #B4D6D3;
+} 
+
+nav a {
+    text-align: center;
+    border: solid 1px black;
+}
+
+.NavFondo {
+    background-color: #FFA3A5;
+}
+
+
+/** Footer **/
+
+footer {
+    position: relative;
+    background-color: #08605F;
+    height: 100px;
+    margin: 0;
+    border: solid 2px grey;
+    grid-area: footer;
+}
+
+footer button{
+    background-color: #B4D6D3;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    width: 100px;
+    height: 50px;
+}
+
+footer a {
+    display: block;
+    font-size: larger;
+    color: black;
+}
+
+
+
+
+
+/** Index **/
+
+.GridPrincipalContenedor {
+    display: grid;
+    grid-template-areas: 
+    "none header header"
+    "main main main"
+    "footer footer footer"
+    ;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
+}
+
+
+
+
+.LogoDiv {
+    padding-top: 30px;
+}
+
+#Cuenta {
+    width: 100px;
+    height: 100px;
+}
+
+.ProductosDiv {
+    padding: 5px;
+    height: 60%;
+}
+
+
+.ProductosSecundarios img{
+    width: 15%;
+    height: 15%;
+}
+
+#ProductoPrincipal {
+    width: 40%;
+    height: 40%;
+}
+
+.InformacionDiv {
+    padding: 2px;
+}
+
+.InformacionDiv img {
+    height: 400px;
+    width: 500px;
+}
+
+
+/** Conocenos **/
+
+.FormDiv {
+    padding: 1px;
+    border: solid 1px black;
+    background-color: #B4D6D3;
+}
+
+/** Contacto **/
+
+
+/** Productos **/
+.HeaderSecundario {
+    position: relative;
+}
+
+.LogoSecu {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+}
+
+
+
+.ListaTodosProductos {
+    height: 40%;
+}
+
+.ListaTodosProductos img {
+    width: 200px;
+    height: 200px;
+}
