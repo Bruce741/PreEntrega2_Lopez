@@ -1,0 +1,194 @@
+/** Generales **/
+
+@font-face {
+    font-family:Roboto;
+    src: url(../Fuente/RobotoCondensed-Regular.ttf);
+}
+
+
+body {
+    background-color: #D7FDF0;
+    margin: 0px;
+    font-family: Roboto;
+}
+
+.MetodosPagoDiv {
+    background-color: #B4D6D3;
+    padding: 1px;
+}
+
+.MetodosPagoDiv h2{
+    margin-top: 3px;
+}
+
+.MetodosPagoDiv ul{
+    list-style-type: square;
+}
+
+.FondoPrincipal {
+    background-color: #B2FFD6;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+/** NavBar **/
+
+
+
+.NavPrincipal {
+    border: solid 1px black;
+    grid-area: Nav;
+    background-color: #B4D6D3;
+   
+} 
+
+.NavLista {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  
+}
+
+
+nav a {
+    font-size: 6vw;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+}
+
+.NavFondo {
+    background-color: #FFA3A5;
+    padding: 0;
+}
+
+
+/** Footer **/
+
+footer {
+    position: relative;
+    background-color: #08605F;
+    height: 100px;
+    margin: 0;
+    border: solid 2px grey;
+}
+
+footer button{
+    background-color: #B4D6D3;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    width: 100px;
+    height: 50px;
+}
+
+footer a {
+    display: block;
+    font-size: larger;
+    color: black;
+}
+
+
+
+
+
+/** Index **/
+
+.Index-Header-Grid {
+    display: grid;
+    grid-template-columns: repeat(4)1fr;
+    grid-template-rows: 3fr 1fr;
+    grid-template-areas:
+    "Logo Logo Logo Cuenta" 
+    "Nav Nav Nav Nav"
+    ;
+}
+
+
+
+
+
+.LogoDiv {
+    grid-area: Logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Index-Cuenta-Div {
+    grid-area: Cuenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductosDiv {
+    padding-top: 5px;
+}
+
+.ProductosSecundarios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1px;
+}
+
+.ProductosSecundarios img{
+    padding: 0;
+    width: 25%;
+}
+
+#ProductoPrincipal {
+    width: 100%;
+}
+
+.InformacionDiv {
+    padding: 2px;
+}
+
+.InformacionDiv img {
+    width: 50%;
+}
+
+
+/** Conocenos **/
+
+.FormDiv {
+    padding: 1px;
+    border: solid 1px black;
+    background-color: #B4D6D3;
+}
+
+/** Contacto **/
+
+
+/** Productos **/
+.HeaderSecundario {
+    position: relative;
+}
+
+.LogoSecu {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+}
+
+
+.ListaTodosProductos {
+    height: 40%;
+}
+
+.ListaTodosProductos img {
+    width: 200px;
+    height: 200px;
+}
