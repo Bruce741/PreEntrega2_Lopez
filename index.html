@@ -13,20 +13,29 @@
     <!--Css Propio-->
     <link rel="stylesheet" href="css/Styles.css">
 </head>
-<body class="container m-2">
+<body class="container-fluid">
 
 
 <div class="row">
-    <header class="NavFondo col-sm-12">
+    <header class="NavFondo col-sm-12 Index-Header-Grid">
         <!--Nav bar-->
+
         <nav class="NavPrincipal">
-            <a href="index.html" id="Home">Home</a>
-            <a href="Pages/Contacto.html">Contacto</a>
-            <a href="Pages/Productos.html">Productos</a>
-            <a href="Pages/Conocenos.html">Conocenos</a>
-            <a href="">Cuenta</a>
+            <div class="NavLista">
+                <a href="index.html" id="Home">Home</a>
+                <a href="Pages/Contacto.html">Contacto</a>
+                <a href="Pages/Productos.html">Productos</a>
+                <a href="Pages/Conocenos.html">Conocenos</a>
+            </div>
         </nav>
-        <div class="LogoDiv"><img src="Media/Logo.jpg" alt="Logo" class="Logo"></div>
+
+        <div class="Index-Cuenta-Div">
+            <a href="">Cuenta</a>
+        </div>
+
+        <div class="LogoDiv">
+            <img src="Media/Logo.jpg" alt="Logo" class="Logo" width="50%">
+        </div>
 </header>
 </div> 
  <!--Fin del header-->
@@ -34,15 +43,14 @@
  <!--Productos destacados-->
     <h2>Conoce Nuestras Principales Ofertas!</h2>
     <section class="ProductosDiv FondoPrincipal row">
-
-        <div class="ProductosSecundarios col-sm-6">
+        <div class="ProductosSecundarios col-xs-6 col-sm-6 col-md-6">
             <img src="Media/RamoFlor1.jpg" alt="Producto1">
             <img src="Media/RamoFlor1.jpg" alt="Producto2">
             <img src="Media/RamoFlor1.jpg" alt="Producto3"> 
-            <img src="Media/RamoFlor1.jpg" alt="Producto4">
+            <img src="Media/RamoFlor1.jpg" alt="Producto4" >
         </div>
 
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-md-6">
             <img id="ProductoPrincipal" src="Media/RamoFlor1.jpg" alt="ProductoPrincipal">
         </div>
 
@@ -56,7 +64,7 @@
         <div class="col-sm-12">
             <img src="Media/LocalFoto.jpg" alt="FotoLocal">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eaque ad, exercitationem corporis officia molestias assumenda similique? Odit, perferendis. Fuga modi excepturi beatae officia corrupti illum facere laudantium omnis molestias.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eaque ad, exercitationem corporis officia molestias assumenda similique? Odit, perferendis. Fuga modi excepturi beatae officia corrupti illum facere laudantium omnis molestias.</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4654.355178356656!2d-58.57935001965036!3d-34.4235517039553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1683405957123!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4654.355178356656!2d-58.57935001965036!3d-34.4235517039553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1683405957123!5m2!1ses-419!2sar" width="10%" height="10%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
     </section>
