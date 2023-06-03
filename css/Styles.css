@@ -5,9 +5,10 @@
     src: url(../Fuente/RobotoCondensed-Regular.ttf);
 }
 
+
 body {
     background-color: #D7FDF0;
-    margin: 0;
+    margin: 0px;
     font-family: Roboto;
 }
 
@@ -69,7 +70,6 @@ footer {
     height: 100px;
     margin: 0;
     border: solid 2px grey;
-    grid-area: footer;
 }
 
 footer button{
@@ -93,17 +93,8 @@ footer a {
 
 /** Index **/
 
-.GridPrincipalContenedor {
-    display: grid;
-    grid-template-areas: 
-    "none header header"
-    "main main main"
-    "footer footer footer"
-    ;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
-    height: 100vh;
-}
+
+
 
 header {
     grid-area: header;
