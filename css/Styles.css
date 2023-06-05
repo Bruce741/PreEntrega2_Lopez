@@ -2,10 +2,32 @@
     font-family:Roboto;
     src: url(../Fuente/RobotoCondensed-Regular.ttf);
 }
+                /** GENERALES **/
+body {
+    background-color: #D7FDF0;
+    margin: 0px;
+    font-family: Roboto;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.Padding-3 {
+    padding: 3px;
+}
 
 /** Footer Flex **/ 
 
+
+.Blanco {
+    color: white;
+}
+
 .Footer-Flex {
+    background-color: #08605F;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,7 +35,12 @@
 }
 
 
-                    /** Index **/
+                    /** INDEX **/
+
+.Main {
+    height: 50%;
+}
+
 
 .Local-Grid {
     background-color: aqua;

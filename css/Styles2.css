@@ -101,64 +101,6 @@ footer a {
 
 
 
-/** Index **/
-
-.Index-Header-Grid {
-    display: grid;
-    grid-template-columns: repeat(4)1fr;
-    grid-template-rows: 3fr 1fr;
-    grid-template-areas:
-    "Logo Logo Logo Cuenta" 
-    "Nav Nav Nav Nav"
-    ;
-}
-
-
-
-
-
-.LogoDiv {
-    grid-area: Logo;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Index-Cuenta-Div {
-    grid-area: Cuenta;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ProductosDiv {
-    padding-top: 5px;
-}
-
-.ProductosSecundarios {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 1px;
-}
-
-.ProductosSecundarios img{
-    padding: 0;
-    width: 25%;
-}
-
-#ProductoPrincipal {
-    width: 100%;
-}
-
-.InformacionDiv {
-    padding: 2px;
-}
-
-.InformacionDiv img {
-    width: 50%;
-}
-
 
 /** Conocenos **/
 
