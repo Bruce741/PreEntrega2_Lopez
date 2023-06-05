@@ -10,6 +10,14 @@ body {
     padding: 0;
 }
 
+.NavFondo {
+    background-color: #FFA3A5;
+}
+
+.Header {
+    margin: 1px;
+}
+
 a {
     text-decoration: none;
 }
@@ -18,6 +26,16 @@ a {
 .Padding-3 {
     padding: 3px;
 }
+
+.MetodosPagoDiv {
+    background-color: #B4D6D3;
+}
+
+.Center {
+    display: flex;
+    justify-content: center;
+}
+
 
 /** Footer Flex **/ 
 
@@ -37,13 +55,35 @@ a {
 
                     /** INDEX **/
 
+/* Header */ 
+
+.Index-Cuenta-Div {
+    display: flex;
+    border: solid 1px black;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.Index-Cuenta-Div a {
+    color: black;
+}
+
+
+.navbar {
+    border: solid 1px black;
+}
+
 .Main {
     height: 50%;
 }
 
+.InformacionDiv {
+    margin: 1px;
+}
 
 .Local-Grid {
     background-color: aqua;
+    padding: 1px;
 }
 
 /** Productos Grid **/
