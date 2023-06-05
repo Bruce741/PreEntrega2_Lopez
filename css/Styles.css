@@ -37,6 +37,13 @@ a {
 }
 
 
+/* NavSecundario */ 
+
+.Nav-Secundario a {
+    text-decoration: none;
+    color: black;
+}
+
 /** Footer Flex **/ 
 
 
@@ -57,16 +64,16 @@ a {
 
 /* Header */ 
 
-.Index-Cuenta-Div {
+.Cuenta-Div {
     display: flex;
     border: solid 1px black;
-    text-decoration: none;
     justify-content: center;
 }
 
-.Index-Cuenta-Div a {
+.Cuenta-Div a{
     color: black;
 }
+
 
 
 .navbar {
@@ -77,12 +84,19 @@ a {
     height: 50%;
 }
 
+/* Body */
+
+.ProductosDiv {
+    background-color: #B2FFD6;
+    padding: 2px;
+}
+
 .InformacionDiv {
     margin: 1px;
 }
 
 .Local-Grid {
-    background-color: aqua;
+    background-color: #B2FFD6;
     padding: 1px;
 }
 
@@ -96,6 +110,7 @@ a {
     "Producto1 Producto2"
     "Producto3 Producto4"
     ;
+    grid-gap: 3px;
 }
 
 .Producto1 {
@@ -141,5 +156,41 @@ a {
         grid-area: Iframe;
     }
 
+
+
 }
 
+                /* CONTACTO */
+
+ .Borde {
+    border: solid 1px black;
+ }
+
+
+
+.Contacto-Main {
+    background-color: #B2FFD6;
+}
+
+
+
+/* Imagenes Responsive*/
+
+.Imagen-Local {
+    width: 100%;
+    padding: 4px;
+}
+
+.Productos-Secundarios img {
+    width: 100%;
+}
+#Producto-Principal {
+    width: 100%;
+    padding: 4px;
+}
+
+
+
+@media screen and (min-width:768px){
+  
+}
