@@ -31,6 +31,11 @@ a {
     background-color: #B4D6D3;
 }
 
+.MetodosPagoDiv p:nth-child(2n) {
+    background-color: #78918f;
+}
+
+
 .Center {
     display: flex;
     justify-content: center;
@@ -87,7 +92,7 @@ a {
     height: 50%;
 }
 
-/* Body */
+/* Main*/
 
 .ProductosDiv {
     background-color: #B2FFD6;
@@ -102,6 +107,7 @@ a {
     background-color: #B2FFD6;
     padding: 1px;
 }
+
 
 /** Productos Grid **/
 
@@ -161,6 +167,17 @@ a {
 
 
 
+
+
+/* Footer */
+.Footer_A-Hover:hover {
+    font-size: larger;
+    color: red;
+}
+
+
+
+
 }
 
                 /* CONTACTO */
@@ -193,7 +210,3 @@ a {
 }
 
 
-
-@media screen and (min-width:768px){
-  
-}
