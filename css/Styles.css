@@ -41,7 +41,11 @@ a {
     justify-content: center;
 }
 
+.A-Hover:hover {
+    font-size: larger;
+    color: red;
 
+}
  
 
 
@@ -166,19 +170,12 @@ a {
     }
 
 
-
+}
 
 
 /* Footer */
-.Footer_A-Hover:hover {
-    font-size: larger;
-    color: red;
-}
 
 
-
-
-}
 
                 /* CONTACTO */
 
@@ -192,6 +189,16 @@ a {
     background-color: #B2FFD6;
 }
 
+.Contacto-Img {
+    width: 50%;
+    padding: 4px;
+}
+
+.Sub-Contacto {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:  center;
+}
 
 
 /* Imagenes Responsive*/
