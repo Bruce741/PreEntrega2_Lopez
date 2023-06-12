@@ -6,7 +6,8 @@
 *{
     padding: 0;
     margin: 0;
-}               
+}        
+
 body {
     background-color: #D7FDF0;
     font-family: Roboto;
@@ -25,7 +26,7 @@ a {
 }
 
 
-.Padding-3 {
+.Padding-0 {
     padding: 3px;
 }
 
@@ -98,6 +99,10 @@ a {
     height: 50%;
 }
 
+.Logo {
+    width: 50%;
+}
+
 /* Main*/
 
 .ProductosDiv {
@@ -109,9 +114,14 @@ a {
     margin: 1px;
 }
 
+
 .Local-Grid {
     background-color: #B2FFD6;
     padding: 1px;
+}
+
+.Iframe-Local {
+    width: 100%;
 }
 
 
@@ -175,6 +185,8 @@ a {
 }
 
 
+
+
 /* Footer */
 
 
@@ -219,3 +231,6 @@ a {
 }
 
 
+.ListaTodosProductos img {
+    width: 50%;
+}
