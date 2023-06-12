@@ -3,11 +3,13 @@
     src: url(../Fuente/RobotoCondensed-Regular.ttf);
 }
                 /** GENERALES **/
+*{
+    padding: 0;
+    margin: 0;
+}               
 body {
     background-color: #D7FDF0;
-    margin: 0px;
     font-family: Roboto;
-    padding: 0;
 }
 
 .NavFondo {
@@ -148,7 +150,7 @@ a {
     .Local-Grid {
         display:grid;
         grid-template-columns: 2fr 2fr;
-        grid-template-rows: 2fr 2fr;
+        grid-template-rows: auto auto;
         grid-template-areas: 
         "Imagen Parrafo"
         "Imagen Iframe"
