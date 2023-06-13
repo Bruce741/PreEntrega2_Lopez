@@ -124,6 +124,11 @@ a {
     width: 100%;
 }
 
+.Separador {
+    background-color: #dbb7b7;
+    height: 2rem;
+}
+
 
 /** Productos Grid **/
 
