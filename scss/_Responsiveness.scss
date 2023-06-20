@@ -1,0 +1,49 @@
+/** Local Grid (DESKTOP) **/ 
+@media screen and (min-width:768px){
+    .Local-Grid {
+        display:grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "Imagen Parrafo"
+        "Imagen Iframe"
+        ;
+
+    }
+
+    .Parrafo-local {
+        grid-area: Parrafo;
+    }
+
+    .Imagen-Local {
+        grid-area: Imagen;
+        align-self: center;
+    }
+
+    .Iframe-Local {
+        grid-area: Iframe;
+    }
+
+
+}
+
+
+/* Imagenes Responsive*/
+
+.Imagen-Local {
+    width: 100%;
+    padding: 4px;
+}
+
+.Productos-Secundarios img {
+    width: 100%;
+}
+#Producto-Principal {
+    width: 100%;
+    padding: 4px;
+}
+
+
+.ListaTodosProductos img {
+    width: 50%;
+}
