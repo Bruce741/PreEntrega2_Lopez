@@ -32,7 +32,6 @@ a {
 .MetodosPagoDiv {
   background-color: #B4D6D3;
 }
-
 .MetodosPagoDiv p:nth-child(2n) {
   background-color: #78918f;
 }
@@ -55,8 +54,7 @@ a {
   border: solid 1px black;
   justify-content: center;
 }
-
-.Cuenta-Div a {
+.Cuenta-Div .Cuenta-Div a {
   color: black;
 }
 
@@ -96,7 +94,6 @@ a {
   height: 2rem;
 }
 
-/* Footer */
 /* CONTACTO */
 .Borde {
   border: solid 1px black;
@@ -111,10 +108,12 @@ a {
   padding: 4px;
 }
 
-.Sub-Contacto {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+/* Productos */
+.Lista-Todos-Productos {
+  background-color: #dbb7b7;
+}
+.Lista-Todos-Productos img {
+  width: 100%;
 }
 
 /** Local Grid (DESKTOP) **/
@@ -142,21 +141,166 @@ a {
   padding: 4px;
 }
 
-.Productos-Secundarios img {
+.Productos-Secundarios img, #Producto-Principal img {
   width: 100%;
 }
 
 #Producto-Principal {
-  width: 100%;
   padding: 4px;
 }
 
-.ListaTodosProductos img {
-  width: 50%;
+/* PRODUCTOS */
+.Lista-Todos-Productos {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: "Producto1 Producto2" "Producto3 Producto4 " "Producto5 Producto6" "Producto7 Producto8" "Producto9 Producto10" "Producto11 Producto12";
+  row-gap: 2px;
+  column-gap: 2px;
 }
 
+.Producto1 {
+  grid-area: Producto1;
+}
+
+.Producto2 {
+  grid-area: Producto2;
+}
+
+.Producto3 {
+  grid-area: Producto3;
+}
+
+.Producto4 {
+  grid-area: Producto4;
+}
+
+.Producto5 {
+  grid-area: Producto5;
+}
+
+.Producto6 {
+  grid-area: Producto6;
+}
+
+.Producto7 {
+  grid-area: Producto7;
+}
+
+.Producto8 {
+  grid-area: Producto8;
+}
+
+.Producto9 {
+  grid-area: Producto9;
+}
+
+.Producto10 {
+  grid-area: Producto10;
+}
+
+.Producto11 {
+  grid-area: Producto11;
+}
+
+.Producto12 {
+  grid-area: Producto12;
+}
+
+@media (min-width: 768px) {
+  .Lista-Todos-Productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "Producto1 Producto2 Producto3 Producto4" "Producto5 Producto6 Producto7 Producto8" "Producto9 Producto10 Producto11 Producto12";
+    row-gap: 2px;
+    column-gap: 2px;
+  }
+  .Producto1 {
+    grid-area: Producto1;
+  }
+  .Producto2 {
+    grid-area: Producto2;
+  }
+  .Producto3 {
+    grid-area: Producto3;
+  }
+  .Producto4 {
+    grid-area: Producto4;
+  }
+  .Producto5 {
+    grid-area: Producto5;
+  }
+  .Producto6 {
+    grid-area: Producto6;
+  }
+  .Producto7 {
+    grid-area: Producto7;
+  }
+  .Producto8 {
+    grid-area: Producto8;
+  }
+  .Producto9 {
+    grid-area: Producto9;
+  }
+  .Producto10 {
+    grid-area: Producto10;
+  }
+  .Producto11 {
+    grid-area: Producto11;
+  }
+  .Producto12 {
+    grid-area: Producto12;
+  }
+}
+@media (min-width: 321px) and (max-width: 767px) {
+  .Lista-Todos-Productos {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "Producto1 Producto2 Producto3" "Producto4 Producto5 Producto6" "Producto7 Producto8 Producto9" "Producto10 Producto11 Producto12";
+    row-gap: 2px;
+    column-gap: 2px;
+  }
+  .Producto1 {
+    grid-area: Producto1;
+  }
+  .Producto2 {
+    grid-area: Producto2;
+  }
+  .Producto3 {
+    grid-area: Producto3;
+  }
+  .Producto4 {
+    grid-area: Producto4;
+  }
+  .Producto5 {
+    grid-area: Producto5;
+  }
+  .Producto6 {
+    grid-area: Producto6;
+  }
+  .Producto7 {
+    grid-area: Producto7;
+  }
+  .Producto8 {
+    grid-area: Producto8;
+  }
+  .Producto9 {
+    grid-area: Producto9;
+  }
+  .Producto10 {
+    grid-area: Producto10;
+  }
+  .Producto11 {
+    grid-area: Producto11;
+  }
+  .Producto12 {
+    grid-area: Producto12;
+  }
+}
 /** Productos Grid **/
-.Productos-Secundarios {
+.Productos-Secundarios, #Producto-Principal {
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-template-rows: 2fr 2fr;
@@ -196,6 +340,12 @@ a {
 .Center {
   display: flex;
   justify-content: center;
+}
+
+.Sub-Contacto {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

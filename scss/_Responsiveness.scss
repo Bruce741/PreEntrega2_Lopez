@@ -39,11 +39,73 @@
     width: 100%;
 }
 #Producto-Principal {
-    width: 100%;
+    @extend .Productos-Secundarios;
     padding: 4px;
 }
 
+/* PRODUCTOS */ 
 
-.ListaTodosProductos img {
-    width: 50%;
+.Lista-Todos-Productos {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(5,auto);
+    grid-template-areas: 
+    "Producto1 Producto2"
+    "Producto3 Producto4 "
+    "Producto5 Producto6"
+    "Producto7 Producto8" 
+    "Producto9 Producto10" 
+    "Producto11 Producto12";
+    row-gap: 2px;
+    column-gap: 2px;
+    }
+
+    @for $i from 1 to 13 {
+        .Producto#{$i} {
+            grid-area: Producto#{$i};
+        }
+    }
+
+
+
+@media (min-width:768px){
+    .Lista-Todos-Productos {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,auto);
+        grid-template-areas: 
+        "Producto1 Producto2 Producto3 Producto4"
+        "Producto5 Producto6 Producto7 Producto8"
+        "Producto9 Producto10 Producto11 Producto12";
+        row-gap: 2px;
+        column-gap: 2px;
+    }
+
+    @for $i from 1 to 13 {
+        .Producto#{$i} {
+            grid-area: Producto#{$i};
+        }
+    }
 }
+
+@media (min-width:321px) and (max-width:767px){
+    .Lista-Todos-Productos {
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(4,auto);
+        grid-template-areas: 
+        "Producto1 Producto2 Producto3" 
+        "Producto4 Producto5 Producto6"
+        "Producto7 Producto8 Producto9"
+        "Producto10 Producto11 Producto12";
+        row-gap: 2px;
+        column-gap: 2px;
+    }
+
+    @for $i from 1 to 13 {
+        .Producto#{$i} {
+            grid-area: Producto#{$i};
+        }
+    }
+}
+

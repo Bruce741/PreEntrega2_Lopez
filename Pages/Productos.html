@@ -21,51 +21,78 @@
 
 
 </head>
-<body>
-    <nav class="NavFondo row Borde Nav-Secundario">
+<body class="container-fluid-p1">
+    <header class="NavFondo row Header">
+        
+        <div class="LogoDiv col-6 col-sm-6 col-md-8">
+            <img src="../Media/Logo.jpg" alt="Logo" class="Logo">
+        </div>
 
-        <a href="../index.html" class="col-md-3 col-xs-3 col-sm-3 Borde Center">Volver al inicio</a>
-        <img src="../Media/Logo.jpg" alt="Logo" class="col-sm-6 col-xs-6 col-md-6 Borde Center">
-        <a href="" class="col-md-3 col-xs-3 col-sm-3 Cuenta-Div Borde">Cuenta</a>
-           
-    </nav>
+        <div class="Cuenta-Div col-6 col-sm-6 col-md-4 Borde">
+            <a href="">Cuenta</a>
+        </div>
     
-    <main>
-        <section>
+ 
+</header>
+
+   <!--Fin del header-->
+
+   <!--Nav bar-->
+  <nav class="navbar navbar-expand-lg NavFondo">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html" id="Home">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          <a class="nav-link" href="../Pages/Contacto.html">Contacto</a>
+          <a class="nav-link" href="../Pages/Productos.html">Productos</a>
+          <a class="nav-link" href="../Pages/Conocenos.html">Conocenos</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+    
+        <section class="Center">
             <img src="" alt="Publicidad">
         </section>
 
         <!--Lista de todos los productos-->
-        <section>
-            <h2>Lista de Productos</h2>
-            <button type="menu">Ordenar</button>
-            <div class="ListaTodosProductos FondoPrincipal container-fluid">
-                <img src="../Media/RamoFlor1.jpg" alt="Producto1">
-                <img src="../Media/RamoFlor1.jpg" alt="Producto2">
-                <img src="../Media/RamoFlor1.jpg" alt="Producto3">
-                <img src="../Media/RamoFlor1.jpg" alt="Producto4">
-                <img src="../Media/RamoFlor1.jpg" alt="Producto5">
-                <img src="../Media/RamoFlor1.jpg" alt="Producto6">
-                <img src="../Media/RamoFlor1.jpg" alt="Producto7">
-                <img src="../Media/RamoFlor1.jpg" alt="Producto8">
-                <img src="../Media/RamoFlor1.jpg" alt="Producto9">
-                <img src="../Media/RamoFlor1.jpg" alt="Producto10">
-                <img src="../Media/RamoFlor1.jpg" alt="Producto11">
-                <img src="../Media/RamoFlor1.jpg" alt="Producto12">
+        <section class="row">
+            <h2 class="Center">Lista de Productos</h2>
+            <button type="menu" class="Center">Ordenar</button>
+            <div class="Lista-Todos-Productos row container-fluid-p1">
+                <img src="../Media/RamoFlor1.jpg" alt="Producto1" class="Producto1">
+                <img src="../Media/RamoFlor1.jpg" alt="Producto2" class="Producto2">
+                <img src="../Media/RamoFlor1.jpg" alt="Producto3" class="Producto3">
+                <img src="../Media/RamoFlor1.jpg" alt="Producto4" class="Producto4">
+                <img src="../Media/RamoFlor1.jpg" alt="Producto5" class="Producto5">
+                <img src="../Media/RamoFlor1.jpg" alt="Producto6" class="Producto6">
+                <img src="../Media/RamoFlor1.jpg" alt="Producto7" class="Producto7">
+                <img src="../Media/RamoFlor1.jpg" alt="Producto8" class="Producto8">
+                <img src="../Media/RamoFlor1.jpg" alt="Producto9" class="Producto9">
+                <img src="../Media/RamoFlor1.jpg" alt="Producto10" class="Producto10">
+                <img src="../Media/RamoFlor1.jpg" alt="Producto11" class="Producto11">
+                <img src="../Media/RamoFlor1.jpg" alt="Producto12" class="Producto12">
             </div>
         </section>
     <!--Seccion Metodos De Pago-->
-    <section class="MetodosPagoDiv">
-        <h2>Metodos de pago</h2>
-        <ul class="ListaDeMetodos">
-            <li>Mercado Pago</li>
-            <li>Efectivo</li>
-            <li>Transferencia Bancaria</li>
-            <li>Paypal</li>
-        </ul>
-    </section>
 
-    </main>
+    <div class="Center">
+        <h2>Metodos de pago</h2>
+        </div>
+    
+        <section class="MetodosPagoDiv row container-fuild">
+            <div class="Lista-Metodos row">
+                <p class="col-12 col-sm-12 col-md-6 Center">∼Mercado Pago∼</p>
+                <p class="col-12 col-sm-12 col-md-6 Center">∼Efectivo∼</p>
+                <p class="col-12 col-sm-12 col-md-6 Center">∼Transferencia∼</p>
+                <p class="col-12 col-sm-12 col-md-6 Center">∼Paypal∼</p>
+            </div>
+        </section>
+    
     
     <div class="row"> 
         <footer class="Footer-Flex">

@@ -1,3 +1,6 @@
+
+
+
 /** Productos Grid **/
 
 .Productos-Secundarios{
@@ -46,4 +49,12 @@
 .Center {
     display: flex;
     justify-content: center;
+}
+
+
+
+.Sub-Contacto {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:  center;
 }
